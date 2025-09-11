@@ -2,6 +2,10 @@ body {
   font-family: Roboto, "Segoe UI", sans-serif;
 }
 
+ul {
+  color: #e5e7eb;
+}
+
 .header,
 .sectionOne {
   background-color: #1f2937;
