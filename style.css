@@ -1,0 +1,13 @@
+body {
+  font-family: Roboto, "Segoe UI", sans-serif;
+}
+
+.header,
+.sectionOne {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
