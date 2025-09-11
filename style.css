@@ -38,3 +38,9 @@ ul {
 .sectionThree {
   background-color: #e5e7eb;
 }
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
