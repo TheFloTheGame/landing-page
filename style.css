@@ -49,6 +49,9 @@ button {
 }
 
 .sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
   width: 125px;
   flex: 0 0 40px;
 }
