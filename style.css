@@ -1,11 +1,39 @@
 body {
   font-family: Roboto, "Segoe UI", sans-serif;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   color: #e5e7eb;
   font-size: 18px;
   list-style-type: none;
+}
+
+.header {
+  flex: 1 0 50px;
+}
+
+.sectionOne {
+  flex: 1 1 300px;
+}
+
+.sectionTwo {
+  flex: 1 1 300px;
+}
+
+.sectionThree {
+  flex: 1 1 300px;
+}
+
+.sectionFour {
+  flex: 1 1 300px;
+}
+
+.footer {
+  flex: 1 0 50px;
 }
 
 .header,
