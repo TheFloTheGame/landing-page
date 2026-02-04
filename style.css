@@ -105,6 +105,19 @@ button {
   padding: 40px;
 }
 
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 200px;
+}
+
 .sectionThree {
   background-color: #e5e7eb;
 }
