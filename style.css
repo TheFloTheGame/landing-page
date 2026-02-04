@@ -66,6 +66,18 @@ button {
 
 .sectionThree {
   flex: 1 1 300px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  justify-content: center;
+  width: 860px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
 }
 
 .sectionFour {
@@ -120,12 +132,6 @@ button {
 
 .sectionThree {
   background-color: #e5e7eb;
-}
-
-.quote {
-  color: #1f2937;
-  font-size: 36px;
-  font-weight: 300;
 }
 
 .banner {
