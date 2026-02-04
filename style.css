@@ -59,6 +59,9 @@ button {
 
 .sectionTwo {
   flex: 1 1 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 .sectionThree {
@@ -98,6 +101,7 @@ button {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
 }
 
 .sectionThree {
