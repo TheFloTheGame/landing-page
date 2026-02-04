@@ -80,6 +80,11 @@ button {
   font-weight: 300;
 }
 
+.author{
+  width: 860px;
+  text-align: right;
+}
+
 .sectionFour {
   flex: 1 1 300px;
 }
