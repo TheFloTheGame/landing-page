@@ -139,8 +139,16 @@ button {
   background-color: #e5e7eb;
 }
 
+.sectionFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner {
   background-color: #3882f6;
+  width: 800px;
+  height: 200px;
 }
 
 .call-to-action {
