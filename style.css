@@ -1,11 +1,96 @@
 body {
   font-family: Roboto, "Segoe UI", sans-serif;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   color: #e5e7eb;
   font-size: 18px;
   list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  border-radius: 10px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.header {
+  flex: 1 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 200px;
+}
+
+.sectionOne {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 200px;
+}
+
+.hero-left {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 0 1 auto;
+  gap: 20px;
+}
+
+.hero-image {
+  flex: 0 1 auto;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  width: 125px;
+  flex: 0 0 40px;
+}
+
+.sectionTwo {
+  flex: 1 1 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.sectionThree {
+  flex: 1 1 300px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  justify-content: center;
+  width: 860px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.author {
+  width: 860px;
+  text-align: right;
+}
+
+.sectionFour {
+  flex: 1 1 300px;
+}
+
+.footer {
+  flex: 1 0 50px;
 }
 
 .header,
@@ -33,14 +118,47 @@ ul {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 200px;
 }
 
 .sectionThree {
   background-color: #e5e7eb;
 }
 
-.quote {
-  color: #1f2937;
-  font-size: 36px;
-  font-weight: 300;
+.sectionFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 900px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.call-to-action {
+  color: #e5e7eb;
+}
+
+.action-text {
+  color: #e5e7eb;
 }
