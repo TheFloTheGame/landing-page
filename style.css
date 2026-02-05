@@ -170,3 +170,9 @@ button {
 .action-text {
   color: #e5e7eb;
 }
+
+.banner .sign-up {
+  flex: 0 0 125px;
+  margin: 40px;
+  border: 2px solid white;
+}
