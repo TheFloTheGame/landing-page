@@ -147,8 +147,9 @@ button {
 
 .banner {
   background-color: #3882f6;
-  width: 800px;
-  height: 200px;
+  width: 900px;
+  height: 150px;
+  border-radius: 10px;
 }
 
 .call-to-action {
