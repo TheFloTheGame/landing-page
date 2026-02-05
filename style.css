@@ -158,10 +158,13 @@ button {
 .text-container {
   display: flex;
   flex-flow: column;
+  padding: 40px;
 }
 
 .call-to-action {
   color: #e5e7eb;
+  font-weight: 800;
+  font-size: 28px;
 }
 
 .action-text {
